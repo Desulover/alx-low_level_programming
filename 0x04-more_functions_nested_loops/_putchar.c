@@ -7,6 +7,6 @@
 * Return: on success 1.
 * On error, -1 is returned, and errno is set appropriately.
 */
-int putcharurn (write(1, &c, 1));
+int _putchar(char c)
 {
-	return (
+return (write(1, &c, 1));
